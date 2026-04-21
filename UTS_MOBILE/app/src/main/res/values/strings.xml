@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">UTS_MOBILE</string>
+    <string name="login_title">Login</string>
+    <string name="register_title">Register</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Konfirmasi Password</string>
+    <string name="action_login">Masuk</string>
+    <string name="action_register">Daftar</string>
+    <string name="action_go_to_register">Belum punya akun? Daftar</string>
+    <string name="action_back_to_login">Sudah punya akun? Kembali ke Login</string>
+    <string name="error_empty_fields">Semua field wajib diisi.</string>
+    <string name="error_login_failed">Username atau password salah.</string>
+    <string name="error_password_mismatch">Password tidak sama.</string>
+    <string name="error_user_exists">Username sudah terdaftar.</string>
+    <string name="register_success">Registrasi berhasil, silakan login.</string>
+    <string name="welcome_user">Selamat datang, %1$s!</string>
+    <string name="welcome_default">Selamat datang!</string>
+    <string name="main_subtitle">Login berhasil, ini halaman utama.</string>
+    <string name="login_welcome_subtitle">Masuk untuk melanjutkan ke dashboard kamu</string>
+    <string name="login_instruction">Silakan login dengan username dan password</string>
+    <string name="main_title">Seminar Registration App</string>
+    <string name="main_dashboard_label">Dashboard</string>
+    <string name="main_username_format">User: %1$s</string>
+    <string name="main_username_default">User: Tamu</string>
+    <string name="action_daftar_seminar">Daftar Seminar</string>
+    <string name="seminar_feature_soon">Fitur daftar seminar akan segera tersedia.</string>
+    <string name="form_title">Form Pendaftaran Seminar</string>
+    <string name="form_name">Nama</string>
+    <string name="form_email">Email</string>
+    <string name="form_phone">Nomor HP</string>
+    <string name="form_gender">Jenis Kelamin</string>
+    <string name="form_gender_male">Laki-laki</string>
+    <string name="form_gender_female">Perempuan</string>
+    <string name="form_seminar_label">Pilihan Seminar</string>
+    <string name="form_agreement">Saya menyetujui data yang diinput benar</string>
+    <string name="form_submit">Kirim Pendaftaran</string>
+    <string name="form_error_required">Lengkapi nama, email, nomor HP, dan jenis kelamin.</string>
+    <string name="form_error_name_required">Nama wajib diisi.</string>
+    <string name="form_error_email_required">Email wajib diisi.</string>
+    <string name="form_error_email_invalid">Email harus valid dan mengandung @.</string>
+    <string name="form_error_phone_required">Nomor HP wajib diisi.</string>
+    <string name="form_error_phone_invalid">Nomor HP harus angka, panjang 10-13 digit, dan diawali 08.</string>
+    <string name="form_error_gender_required">Pilih jenis kelamin.</string>
+    <string name="form_error_seminar">Pilih seminar terlebih dahulu.</string>
+    <string name="form_error_agreement">Centang persetujuan sebelum mengirim.</string>
+    <string name="form_success_message">Pendaftaran seminar berhasil dikirim.</string>
+    <string name="form_submit_confirmation">Apakah data yang Anda isi sudah benar?</string>
+    <string name="form_confirm_yes">Ya</string>
+    <string name="form_confirm_no">Tidak</string>
+    <string name="form_select_seminar_prompt">-- Pilih Seminar --</string>
+    <string name="result_title">Hasil Pendaftaran Seminar</string>
+    <string name="result_name_format">Nama: %1$s</string>
+    <string name="result_email_format">Email: %1$s</string>
+    <string name="result_phone_format">Nomor HP: %1$s</string>
+    <string name="result_gender_format">Jenis Kelamin: %1$s</string>
+    <string name="result_seminar_format">Seminar: %1$s</string>
+    <string name="result_name_placeholder">Nama:</string>
+    <string name="result_email_placeholder">Email:</string>
+    <string name="result_phone_placeholder">Nomor HP:</string>
+    <string name="result_gender_placeholder">Jenis Kelamin:</string>
+    <string name="result_seminar_placeholder">Seminar:</string>
+    <string name="result_success_message">Pendaftaran Berhasil</string>
+    <string name="action_back_to_main">Kembali ke Halaman Utama</string>
+
+    <string-array name="seminar_options">
+        <item>@string/form_select_seminar_prompt</item>
+        <item>Android Development Fundamentals</item>
+        <item>UI/UX Mobile Design Trends</item>
+        <item>Machine Learning for Beginners</item>
+        <item>Cloud Computing Essentials</item>
+        <item>Cybersecurity Awareness</item>
+    </string-array>
+</resources>
